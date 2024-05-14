@@ -60,6 +60,16 @@ The confusion matrix from testing the model on the unseen test data is as follow
 
 This shows high accuracy and a low rate of false negatives, which is critical for medical diagnostic tools.
 
+#### Classification Report
+The classification report further confirms the accuracy of our model with the following metrics:
+- **Precision**: The model is precise in its predictions, scoring 0.97 for uninfected smears and 0.95 for parasitized smears. This means that when it predicts a class, it is highly likely to be correct.
+- **Recall**: The recall of 0.95 for uninfected and 0.97 for parasitized indicates the model's ability to identify all relevant cases within each class.
+- **F1-Score**: The harmonized average of precision and recall, standing at 0.96 for both classes, confirms the balanced accuracy of our classifier.
+- **Support**: The support values, 2780 for Uninfected and 2732 for Parasitized, show a balanced dataset and reaffirm the reliability of our metrics.
+
+#### Overall Performance
+The overall accuracy of the model is 0.96, reflecting its high efficiency in classifying malaria from blood smears. Both macro and weighted averages of the F1-score are 0.96, highlighting consistent performance across both categories of the dataset.
+
 ## Conclusion
 
 The developed model demonstrates excellent potential in classifying malaria infections from blood smear images with high accuracy. With a test accuracy of 95.6%, the model effectively differentiates between parasitized and uninfected samples. The high sensitivity and specificity achieved shows that this model could serve as a valuable tool in aiding medical professionals to quickly and accurately diagnose malaria, thereby facilitating timely and appropriate treatment interventions hence saving lives.
