@@ -10,13 +10,21 @@ The primary objective of this project is to develop a deep learning model that c
 
 ## Data Understanding
 
-The dataset used in this project is sourced from TensorFlow Datasets, specifically the "malaria" dataset, which contains segmented cells from thin blood smear slide images of segmented cells. These images are labeled as either "Parasitized" or "Uninfected," making it a binary classification problem.
+The dataset used in this project is sourced from TensorFlow Datasets alias tfds, specifically the "malaria" dataset, which contains segmented cells from thin blood smear slide images of segmented cells. These images are labeled as either "Parasitized" or "Uninfected," making it a binary classification problem.
 
 ### Dataset Characteristics:
 - Total Samples: 27,558
 - Two Classes: Parasitized and Uninfected
 - Split: 80% for training and 20% for testing
 - Image Size: 128x128 pixels
+
+## Exploratory Data Analysis (EDA)
+
+### Class Distribution
+The distribution of the two classes, 'Parasitized' and 'Uninfected', in both the training and test datasets was examined. This analysis is crucial to ensure that our model learns from a balanced dataset, which helps in reducing biases towards the more frequent class. The distribution charts indicate that the dataset is reasonably balanced, with both classes adequately represented in both training and test sets.
+
+### Data Preprocessing
+Data preprocessing involved normalizing the pixel values to a [0, 1] scale and resizing all images to 128x128 pixels. Normalization helps in speeding up the learning process, while consistent image sizing is crucial for the CNN architecture to process the input data efficiently. The preprocessed images were then shuffled to ensure the model does not learn any inadvertent order patterns, batched to improve training speed, and cached to optimize loading times. This preparation is vital for training deep learning models, particularly when dealing with large datasets and complex models.
 
 ## Modeling
 
