@@ -46,7 +46,7 @@ The model is compiled using:
 - **Batch Size**: 32
 
 ### Performance
-- **Test Accuracy**: 95%
+- **Test Accuracy**: 95.63%
 
 ## Results
 
@@ -55,8 +55,8 @@ The confusion matrix from testing the model on the unseen test data is as follow
 
 |               | Predicted Uninfected | Predicted Parasitized |
 |---------------|----------------------|-----------------------|
-| **True Uninfected**  | 2579                 | 201                   |
-| **True Parasitized** | 58                   | 2674                  |
+| **True Uninfected**  | 2628                 | 152                   |
+| **True Parasitized** | 89                   | 2643                  |
 
 This shows high accuracy and a low rate of false negatives, which is critical for medical diagnostic tools.
 
