@@ -68,7 +68,7 @@ The classification report further confirms the accuracy of our model with the fo
 - **Support**: The support values, 2780 for Uninfected and 2732 for Parasitized, show a balanced dataset and reaffirm the reliability of our metrics.
 
 #### Overall Performance
-The overall accuracy of the model is 0.96, reflecting its high efficiency in classifying malaria from blood smears. Both macro and weighted averages of the F1-score are 0.96, highlighting consistent performance across both categories of the dataset.
+The overall accuracy of the model is 0.961, reflecting its high efficiency in classifying malaria from blood smears. Both macro and weighted averages of the F1-score are 0.96, highlighting consistent performance across both categories of the dataset.
 
 ## Conclusion
 
