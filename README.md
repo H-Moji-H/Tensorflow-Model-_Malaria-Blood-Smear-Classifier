@@ -65,7 +65,7 @@ The classification report further confirms the accuracy of our model with the fo
 - **Precision**: The model is precise in its predictions, scoring 0.97 for uninfected smears and 0.95 for parasitized smears. This means that when it predicts a class, it is highly likely to be correct.
 - **Recall**: The recall of 0.95 for uninfected and 0.97 for parasitized indicates the model's ability to identify all relevant cases within each class.
 - **F1-Score**: The harmonized average of precision and recall, standing at 0.96 for both classes, confirms the balanced accuracy of our classifier.
-- **Support**: The support values, 2780 for Uninfected and 2732 for Parasitized, show a balanced dataset and reaffirm the reliability of our metrics.
+- **Support**: The support values, 2780 for Uninfected and 2732 for Parasitized, indicate a balanced dataset and reaffirm the reliability of our metrics.
 
 #### Overall Performance
 The overall accuracy of the model is 0.961, reflecting its high efficiency in classifying malaria from blood smears. Both macro and weighted averages of the F1-score are 0.96, highlighting consistent performance across both categories of the dataset.
