@@ -61,7 +61,7 @@ The confusion matrix from testing the model on the unseen test data is as follow
 This shows high accuracy and a low rate of false negatives, which is critical for medical diagnostic tools.
 
 #### Classification Report
-The classification report further confirms the accuracy of our model with the following metrics:
+The classification report further confirms the accuracy of the model with the following metrics:
 - **Precision**: The model is precise in its predictions, scoring 0.97 for uninfected smears and 0.95 for parasitized smears. This means that when it predicts a class, it is highly likely to be correct.
 - **Recall**: The recall of 0.95 for uninfected and 0.97 for parasitized indicates the model's ability to identify all relevant cases within each class.
 - **F1-Score**: The harmonized average of precision and recall, standing at 0.96 for both classes, confirms the balanced accuracy of our classifier.
