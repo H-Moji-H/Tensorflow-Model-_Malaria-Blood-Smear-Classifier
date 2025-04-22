@@ -6,7 +6,7 @@ Malaria, a life-threatening disease primarily transmitted through the bite of an
 
 ## Objective
 
-The primary objective of this project is to develop a deep learning model that can automatically classify blood smear images into two categories: infected (Parasitized) and uninfected(non-parasitized). By leveraging convolutional neural networks (CNNs), the model aims to provide a reliable tool for assisting healthcare professionals in diagnosing malaria more rapidly and accurately to lower the risk of loss oflives.
+The primary objective of this project is to develop a deep learning model that can automatically classify blood smear images into two categories: infected (Parasitized) and uninfected(non-parasitized). By leveraging convolutional neural networks (CNNs), the model aims to provide a reliable tool for assisting healthcare professionals in diagnosing malaria more rapidly and accurately to lower the risk of loss of lives.
 
 ## Data Understanding
 
