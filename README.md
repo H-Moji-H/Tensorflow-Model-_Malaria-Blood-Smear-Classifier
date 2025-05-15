@@ -2,7 +2,7 @@
 
 ## Problem Statement
 
-Malaria, a life-threatening disease primarily transmitted through the bite of an infected female Anopheles mosquito, continues to have significant health and economic impacts across the globe, especially in Sub-saharan Africa. Rapid and accurate diagnosis of Malaria is crucial for effective disease management and control. The conventional method of microscopic examination of blood smears is labor-intensive andrequires skilled personnel. Automating this process through machine learning can potentially increase the accuracy and efficiency of malaria diagnosis thus potentially saving lives.
+Malaria, a life-threatening disease primarily transmitted through the bite of an infected female Anopheles mosquito, continues to have significant health and economic impacts across the globe, especially in Sub-saharan Africa. Rapid and accurate diagnosis of Malaria is crucial for effective disease management and control. The conventional method of microscopic examination of blood smears is labor-intensive and requires skilled personnel. Automating this process through machine learning can potentially increase the accuracy and efficiency of malaria diagnosis thus potentially saving lives.
 
 ## Objective
 
