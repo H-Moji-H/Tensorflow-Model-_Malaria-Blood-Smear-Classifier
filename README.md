@@ -37,7 +37,8 @@ The model utilizes a sequential CNN architecture comprised of the following laye
 
           Multiple layers for feature extraction, including ReLU activation functions and max pooling for dimensionality reduction.
 - **Dropout Layer**:
-- To prevent overfitting by randomly setting input units to 0 at a rate of 0.5 during training.
+
+           To prevent overfitting by randomly setting input units to 0 at a rate of 0.5 during training.
 - **Flatten and Dense Layers**: For non-linear transformation and to output the final prediction.
 
 ### Compilation
