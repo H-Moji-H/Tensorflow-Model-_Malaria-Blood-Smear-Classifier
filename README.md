@@ -40,7 +40,7 @@ The model utilizes a sequential CNN architecture comprised of the following laye
 
         To prevent overfitting by randomly setting input units to 0 at a rate of 0.5 during training.
 - **Flatten and Dense Layers**:
-- For non-linear transformation and to output the final prediction.
+  For non-linear transformation and to output the final prediction.
 
 ### Compilation
 The model is compiled using:
