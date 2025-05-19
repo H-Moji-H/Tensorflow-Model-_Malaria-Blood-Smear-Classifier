@@ -30,7 +30,7 @@ Data preprocessing involved normalizing the pixel values to a [0, 1] scale and r
 
 ### Model Architecture
 The model utilizes a sequential CNN architecture comprised of the following layers:
-**Input Layer**:
+-**Input Layer**:
 
         Accepts an input shape of (128, 128, 3) for RGB images.
 - **Convolutional and Pooling Layers**:
