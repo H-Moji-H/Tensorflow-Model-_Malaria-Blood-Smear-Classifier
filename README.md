@@ -66,7 +66,7 @@ The confusion matrix from testing the model on the unseen test data is as follow
 | **True Uninfected**  | 2628                 | 152                   |
 | **True Parasitized** | 89                   | 2643                  |
 
-Our model shows high accuracy and a low rate of false negatives, which is critical for medical diagnostic tools.
+Our model indicates high accuracy and a low rate of false negatives, which is critical for medical diagnostic tools.
 
 #### Classification Report
 The classification report further confirms the accuracy of the model with the following metrics:
