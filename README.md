@@ -82,4 +82,4 @@ The overall accuracy of the model is 0.961, reflecting its high efficiency in cl
 
 The developed model demonstrates an excellent potential in classifying malaria infections from blood smear images with high accuracy. With a test accuracy of 95.6% (96%), the model effectively differentiates between parasitized and uninfected samples. The high sensitivity and specificity achieved shows that this model could serve as a valuable tool in aiding medical professionals to quickly and accurately diagnose malaria, thereby facilitating timely and appropriate treatment interventions hence saving lives.
 
-Future enhancements could include model optimization to further reduce false negatives, and the integration of this model into a real-time diagnostic tool for use in medical facilities, particularly in Malaria-endemic regions.
+Future enhancements could include: model optimization to further reduce false negatives, and the integration of this model into a real-time diagnostic tool for use in medical facilities, particularly in Malaria-endemic regions.
