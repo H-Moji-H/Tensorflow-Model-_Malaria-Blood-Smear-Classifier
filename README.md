@@ -84,4 +84,4 @@ The developed model demonstrates an excellent potential in classifying malaria i
 
 Future enhancements could include: 
 - Model optimization to further reduce false negatives, and the 
-- integration of this model into a real-time diagnostic tool for use in medical facilities, particularly in Malaria-endemic regions.
+- Integration of this model into a real-time diagnostic tool for use in medical facilities, particularly in Malaria-endemic regions.
